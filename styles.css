@@ -219,3 +219,38 @@ button:hover {
         font-size: 1.5em;
     }
 }
+/* Achievements Section */
+#achievements {
+    padding: 50px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.achievement-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.achievement {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.achievement h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #002147;
+    margin-bottom: 10px;
+}
+
+.achievement p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
