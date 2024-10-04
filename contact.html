@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Yahia El-Awady</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" type="x-icon" href="image.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Contact Yahia El-Awady</h1>
+            <h1>Contact Yahia Karim El-Awady</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -22,17 +21,21 @@
     <main>
         <section id="contact" class="container">
             <h2>Contact Me</h2>
-            <form id="contact-form" action="https://formspree.io/f/xjvnnyyd" method="POST">
+            <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="success.html">
+                <input type="hidden" name="form-name" value="contact">
+                <div style="display:none;">
+                    <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+                </div>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="_replyto" required>
+                <input type="email" id="email" name="email" required>
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
                 <button type="submit">Submit</button>
             </form>
-            <p>Email: <a href="mailto:yahiakarimelawady@gmail.com">yahiakarimelawady@gmail.com"</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/yahiakarim/" target="_blank">Yahia El-Awady</a></p>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">your-linkedin</a></p>
         </section>
     </main>
     <footer>
