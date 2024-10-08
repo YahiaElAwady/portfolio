@@ -9,7 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "goog": "http://schema.googleapis.com/",
+    "resultScore": "goog:resultScore",
+    "detailedDescription": "goog:detailedDescription",
+    "EntitySearchResult": "goog:EntitySearchResult",
+    "kg": "http://g.co/kg"
+  },
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+         "@type": "EntitySearchResult",
+      "result": {
+        "@id": "kg:/m/3b0c91f81109",
   "@type": "Person",
   "name": "Yahia Karim El-Awady",
   "alternateName": "Yahia El-Awady",
@@ -35,6 +48,7 @@
     "contactType": "Customer Support",
     "email": "mailto:yahiakarimelawady@gmail.com",
     "url": "https://yahiaelawady.github.io/portfolio/contact.html"
+        }
   }
 }
 </script>
