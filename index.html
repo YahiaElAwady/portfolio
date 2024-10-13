@@ -22,7 +22,6 @@
     {
          "@type": "EntitySearchResult",
       "result": {
-        "@id": "kg:/m/AIzaSyCmq5jep3ApzEc-z24uPxnVJ9RyZXtXKWE",
   "@type": "Person",
   "name": "Yahia Karim El-Awady",
   "alternateName": "Yahia El-Awady",
@@ -50,6 +49,14 @@
         }
   }
 }
+
+  var service_url = 'https://kgsearch.googleapis.com/v1/entities:search';
+  var params = {
+    'query': 'Yahia Karim El-Awady',
+    'limit': 10,
+    'indent': true,
+    'key' : '<AIzaSyCmq5jep3ApzEc-z24uPxnVJ9RyZXtXKWE>',
+  };
 </script>
 
 </head>
